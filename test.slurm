@@ -1,4 +1,3 @@
-
 #!/bin/bash
 #SBATCH -A  cvn@v100
 #SBATCH --job-name=hmsc_test.0_test     # job name
