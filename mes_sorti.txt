@@ -1,0 +1,18 @@
+args=Namespace(samples=2, transient=5, thin=10, chains=None, input='init_30_08.rds', output='output_30_08.rds', verbose=1, hmcleapfrog=10, hmcthin=0, updbe=0, tnlib='tf', fse=1, profile=0, rngseed=0, fp=64)
+working directory /lustre/fshomisc/home/rech/genczu01/uus41xs/tensorflow/test_hmsc_hpc
+Initializing TF graph
+retracing
+iteration 2 / 2 saving 1TF graph initialized in 10.4 sec
+Running TF Gibbs sampler for 2 chains with indices [0, 1]
+
+ Computing chain 0
+iteration 25 / 25 saving 2
+ 1 chains completed in 0.4 sec
+
+ Computing chain 1
+iteration 25 / 25 saving 2
+ 2 chains completed in 0.8 sec
+
+ Whole Gibbs sampler elapsed 0.8
+done
+

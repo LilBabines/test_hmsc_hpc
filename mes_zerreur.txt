@@ -1,0 +1,24 @@
+Loading tensorflow-gpu/py3/2.11.0
+  Loading requirement: cuda/11.2 nccl/2.9.6-1-cuda cudnn/8.1.1.33-cuda gcc/8.5.0
+    openmpi/4.1.1-cuda sox/14.4.2
+2024-10-15 12:22:48.462516: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-10-15 12:22:52.911836: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-10-15 12:23:09.520382: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 31010 MB memory:  -> device: 0, name: Tesla V100-SXM2-32GB, pci bus id: 0000:88:00.0, compute capability: 7.0
+/lustre/fshomisc/home/rech/genczu01/uus41xs/tensorflow/test_hmsc_hpc/hmsc/utils/import_utils.py:129: RuntimeWarning: divide by zero encountered in divide
+  tmp = distMat / rLPar["alphapw"][:,0,None,None]
+/lustre/fshomisc/home/rech/genczu01/uus41xs/tensorflow/test_hmsc_hpc/hmsc/utils/import_utils.py:129: RuntimeWarning: invalid value encountered in divide
+  tmp = distMat / rLPar["alphapw"][:,0,None,None]
+WARNING:tensorflow:From /gpfslocalsup/pub/anaconda-py3/2022.05/envs/tensorflow-gpu-2.11.0+py3.10.8/lib/python3.10/site-packages/tensorflow_probability/python/internal/batched_rejection_sampler.py:102: calling while_loop_v2 (from tensorflow.python.ops.control_flow_ops) with back_prop=False is deprecated and will be removed in a future version.
+Instructions for updating:
+back_prop=False is deprecated. Consider using tf.stop_gradient instead.
+Instead of:
+results = tf.while_loop(c, b, vars, back_prop=False)
+Use:
+results = tf.nest.map_structure(tf.stop_gradient, tf.while_loop(c, b, vars))
+WARNING:tensorflow:From /gpfslocalsup/pub/anaconda-py3/2022.05/envs/tensorflow-gpu-2.11.0+py3.10.8/lib/python3.10/site-packages/tensorflow/python/autograph/pyct/static_analysis/liveness.py:83: Analyzer.lamba_check (from tensorflow.python.autograph.pyct.static_analysis.liveness) is deprecated and will be removed after 2023-09-23.
+Instructions for updating:
+Lambda fuctions will be no more assumed to be used in the statement where they are used, or at least in the same block. https://github.com/tensorflow/tensorflow/issues/56089
+sampling
+sampling
+sampling
